@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@100&display=swap");
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.containerTable{
+    width: inherit;
+    height: inherit;
+padding-left: 100px;
+padding-top: 50px;
+}
+.containerTable>h3{
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    line-height: 50px;
+
+}
+.containerTable>table{
+   
+    font-family: Quicksand;
+    font-size: 1rem;
+    /* background-color: rgba(246, 245, 245, 0.692); */
+    border-radius: 10px;
+    
+}
+td{
+   text-align: center;
+   padding:5px 10px;
+ border-radius: 10px;
+ border-collapse: separate;
+}
+
+td>button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+td>button>a{
+    text-decoration: none;
+    color: black;
+}
+
+/* td:nth-of-type(even){
+    background-color: rgba(157, 221, 246, 0.959);
+} */
+tr:nth-of-type(odd){
+    background-color: rgba(155, 200, 245, 0.959);
+}
+tr:nth-of-type(even){
+    background-color: rgba(141, 170, 199, 0.959);
+}
+
+td:hover{
+    background-color: rgba(236, 236, 236, 0.952);
+    
+}
+th{
+    background-color:#FFFF;
+    
+    padding-bottom: 15px;
+ }
